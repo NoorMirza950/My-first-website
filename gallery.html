@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Gallery</title>
+  <style>
+    body {
+      background-color: #fff8f5;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #b30059;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<h1>My Mood Gallery</h1>
+
+<div class="gallery">
+  <img src="https://source.unsplash.com/400x300/?sky" alt="Sky">
+  <img src="https://source.unsplash.com/400x300/?flowers" alt="Flowers">
+  <img src="https://source.unsplash.com/400x300/?books" alt="Books">
+  <img src="https://source.unsplash.com/400x300/?night" alt="Night">
+  <img src="https://source.unsplash.com/400x300/?cozy" alt="Cozy">
+  <img src="https://source.unsplash.com/400x300/?dream" alt="Dream">
+</div>
+
+</body>
+</html>
