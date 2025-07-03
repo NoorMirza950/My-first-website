@@ -9,6 +9,29 @@
   color: #4b4b4b;
 }
 
+    .navbar {
+  background-color: #ffe6f0;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar a {
+  color: #800089;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #ff4da6;
+    }
+    
 .card {
   background-color: #fff0f5;
   padding: 20px;
@@ -61,6 +84,11 @@ button:hover {
 </head>
 
 <body>
+  <div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="#">Gallery</a>
+  </div>
   <div class="card">
   <h1>About My Life</h1>
   <h2>About My Messiness</h2>
